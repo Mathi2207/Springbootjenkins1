@@ -1,4 +1,4 @@
 FROM openjdk
 EXPOSE 9000
-ADD/target/spring-docker.jar/spring-docker.jar
+ADD /target/springbootjenkins.jar /springbootjenkins.jar
 ENTRYPOINT ["java","-jar",/"spring-docker.jar]
